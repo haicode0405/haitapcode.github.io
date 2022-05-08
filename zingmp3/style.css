@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+img {
+    max-width: 100%;
+}
+.containers {
+    max-width: 1000px;
+    margin: auto;
+}
+.list{
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: #000;
+}
+.avatar img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.listmusic{
+    display: flex;
+    justify-content: space-around;
+}
+.music img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.music:hover {
+    box-shadow: rgba(236, 9, 9, 0.1) 0px 0px 20px;
+    transition: 0.1s;
+}
+a {
+    text-decoration: none; /* xóa gạch chân của text */
+}

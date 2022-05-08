@@ -11,6 +11,22 @@ body {
 img {
     max-width: 100%;
 }
-.text {
-    color: red;
+h1 {
+    color: blue;
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    
+}
+a img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* làm cho ảnh k méo k bị kéo hình */
+}
+
+.product:hover {
+    box-shadow: rgba(236, 9, 9, 0.1) 0px 0px 20px;
+    transition: 0.1s;
 }
